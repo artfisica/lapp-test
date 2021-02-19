@@ -231,6 +231,7 @@ class HyyAnalysis : public TSelector {
   virtual void    Terminate();
 
   int nEvents;
+  int nMod;
  
   float nEvent;
   float nEvent2;
